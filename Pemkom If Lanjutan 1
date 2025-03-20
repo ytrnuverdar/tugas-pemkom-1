@@ -1,0 +1,15 @@
+lakmusmerah=input("Masukan Kondisi Kertas Lakmus Merah: ")
+lakmusbiru=input("Masukan Kondisi Kertas Lakmus Biru: ")
+if lakmusmerah.upper() == "MERAH":
+    if lakmusbiru.upper()=="MERAH":
+        pH="Asam"
+    else:
+        pH="Netral"
+elif lakmusmerah.upper() == "BIRU":
+    if lakmusbiru.upper()=="BIRU":
+        pH="Basa"
+    else:
+        pH="Netral"
+else:
+    print("Kondisi Lakmus Invalid")
+print(pH)
